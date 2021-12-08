@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,8 +10,15 @@
 </head>
 <body>
 
-    <?php $age = null; $age = 37?>
-    <p><?=$age ?></p>
+<?php $gender = "femme";
+
+    if ($gender != "Homme") {
+        echo "C'est une développeuse !!!";
+    } else {
+        echo "C'est un développeur";
+    }
+
+?>
 
 </body>
 </html>

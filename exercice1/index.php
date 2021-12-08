@@ -7,8 +7,15 @@
     <title>partie 1 exercice 1</title>
 </head>
 <body>
-    <p>Aujourd'hui nous sommes le <?php echo date('d/m/Y h:i:s'); ?>.</p>
-    <?php $name = "Gary" ?>
-    <p><?php echo $name;?></p>
+    
+    <?php $age = 37;
+
+    if ($age > 18) {
+        echo "Vous êtes majeur";
+    } else {
+        echo "Vous êtes mineur";
+    }
+    ?>
+
 </body>
 </html>

@@ -8,8 +8,15 @@
 </head>
 <body>
 
-    <?php $lastname = "Gaffez"; $firstname = "Gary"; $age = 37;?>
-    <p>Bonjour <?=$lastname.' '.$firstname?>, tu as <?=$age?> ans</p>
+    <?php $isOK = true;
+
+        if ($isOK == false) {
+            echo "c'est pas bon !!!";
+        } else {
+            echo "c'est ok !";
+        }
+
+    ?>
 
 </body>
 </html>

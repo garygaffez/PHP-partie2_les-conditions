@@ -8,8 +8,29 @@
 </head>
 <body>
 
-    <?php $lastname = "Gaffez"; $firstname = "Gary"; $age = 37;?>
-    <p>Je m'appelle <?=$lastname.' '.$firstname?>, et j'ai <?=$age?>ans</p>
+    <!--  methode 1 -->
+
+    <?php $isEasy = true;
+
+    // if ($isEasy == true) {
+    //     echo "C'est facile !!";
+    // } else {
+    //     echo "C'est difficile !!!";
+    // }
+    ?>
+
+    <!-- methode 2 -->
+
+    <?php $isEasy = true;
+
+    if (! $isEasy) {
+        echo "C'est facile !!";
+    }else {
+        echo "C'est difficile !!!";
+    }
+
+    ?>
+
 
 </body>
 </html>

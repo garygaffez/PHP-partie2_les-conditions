@@ -8,10 +8,15 @@
 </head>
 <body>
 
-    <?php $firstResult = 3 + 4; $secondResult = 5 * 20; $thirdResult = 45 / 5 ?> 
-    <p><?= $firstResult?></p>
-    <p><?= $secondResult?></p>
-    <p><?= $thirdResult?></p>   
+    <?php $isOK = true;
+
+        if ($isOK) {
+            echo "c'est ok !!!";
+        } else {
+            echo "c'est pas bon !";
+        }
+
+    ?>
 
 </body>
 </html>

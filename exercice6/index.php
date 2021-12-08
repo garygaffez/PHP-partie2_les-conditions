@@ -8,8 +8,15 @@
 </head>
 <body>
 
-    <?php $name = "Gary"?>
-    <p>Bonjour <?=$name?>, comment vas tu ?</p>
+<?php $age = 11;
+
+    if ($age >= 18) {
+        echo "Tu es majeur";
+    } else {
+        echo "Tu n'est pas majeur";
+    }
+
+?>
 
 </body>
 </html>

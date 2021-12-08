@@ -8,14 +8,18 @@
 </head>
 <body>
 
-    <?php $km = 1?>
-    <p><?=$km?></p>
+    <?php $age = 17; $gender = "Femme";
 
-    <?php $km = 3?>
-    <p><?=$km?></p>
+    if ($gender == "Homme" && $age >= 18) {
+        echo "Vous êtes un homme et vous êtes majeur";
+    } else if ($gender == "Homme" && $age < 18) {
+        echo "Vous êtes un homme et vous êtes mineur";
+    } else if ($gender == "Femme" && $age >= 18) {
+        echo "Vous êtes une femme et vous êtes majeur";
+    } else if ($gender == "Femme" && $age < 18) {
+        echo "Vous êtes une femme et vous êtes mineure";
+    }
 
-    <?php $km = 125?>
-    <p><?=$km?></p>
-
+?>
 </body>
 </html>
